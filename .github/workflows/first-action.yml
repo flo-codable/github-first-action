@@ -8,6 +8,3 @@ jobs:
         uses: distributhor/workflow-webhook@v3
         with:
           webhook_url: https://f9e606db-2611-4862-a200-af2957bcd2a4.webhook.dewc.azure-automation.net/webhooks?token=A5bf0C9Fln2lf53pj1mNKkD52XKMwFXY%2brfjfotZMTw%3d
-      - name: Warte 5 Sekunden
-        run: sleep 5s
-        shell: bash
